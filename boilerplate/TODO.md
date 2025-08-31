@@ -1,0 +1,4 @@
+- Add more models and services
+- Add tests (Jest)
+- Add Dockerfile
+- Add CI/CD workflow

@@ -1,0 +1,1 @@
+export const healthCheck = (_req, res) => res.json({ uptime: process.uptime(), status: 'ok' });

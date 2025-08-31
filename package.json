@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "CLI to scaffold a production-ready Node.js + Express + Mongoose boilerplate",
   "scripts": {
-    "dev": "node bin/create-express-saas.js --help"
+    "dev": "node bin/create-express-saas.js --help",
+    "prepublishOnly": "node scripts/prepare-template.js"
   },
   "bin": {
     "create-express-saas": "bin/create-express-saas.js"
@@ -18,7 +19,8 @@
   "homepage": "https://github.com/khushikumarigupta14/create-express-saas#readme",
   "files": [
     "bin",
-    "template"
+    "template",
+    "scripts"
   ],
   "bugs": {
     "url": "https://github.com/khushikumarigupta14/create-express-saas/issues"
@@ -41,7 +43,7 @@
   "dependencies": {
     "chalk": "^5.3.0",
     "commander": "^12.1.0",
-    "ora": "^8.0.1",
-    "fs-extra": "^11.2.0"
+    "fs-extra": "^11.2.0",
+    "ora": "^8.0.1"
   }
 }

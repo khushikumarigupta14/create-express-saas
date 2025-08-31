@@ -26,3 +26,11 @@ Thumbs.db
 dist/
 coverage/
 .nyc_output/
+
+template
+
+node_modules
+template
+.DS_Store
+npm-debug.log
+.env
