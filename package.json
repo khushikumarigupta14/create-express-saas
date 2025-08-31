@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "description": "CLI to scaffold a production-ready Node.js + Express + Mongoose boilerplate",
   "scripts": {
-    "lint": "eslint .",
-    "dev": "node bin/create-express-saas.js --help",
-    "prepublishOnly": "node scripts/prepare-template.js",
-    "postpublish": "node scripts/cleanup-template.js"
+    "dev": "node bin/create-express-saas.js --help"
   },
   "bin": {
     "create-express-saas": "bin/create-express-saas.js"
