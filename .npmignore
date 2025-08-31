@@ -1,0 +1,19 @@
+# Ignore everything by default
+*
+
+# Allow only these
+!/bin
+!/template
+!/README.md
+!/LICENSE
+!/package.json
+
+# Exclude unwanted stuff even inside bin/template
+node_modules/
+logs/
+*.log
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

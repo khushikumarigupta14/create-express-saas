@@ -1,0 +1,50 @@
+{
+  "name": "create-express-saas",
+  "version": "1.0.0",
+  "description": "CLI to scaffold a production-ready Node.js + Express + Mongoose boilerplate",
+  "scripts": {
+    "lint": "eslint .",
+    "dev": "node bin/create-express-saas.js --help",
+    "prepublishOnly": "node scripts/prepare-template.js",
+    "postpublish": "node scripts/cleanup-template.js"
+  },
+  "bin": {
+    "create-express-saas": "bin/create-express-saas.js"
+  },
+  "type": "module",
+  "license": "MIT",
+  "author": "Khushi Kumari",
+  "repository": {
+    "url": "https://github.com/khushikumarigupta14/create-express-saas",
+    "type": "git"
+  },
+  "homepage": "https://github.com/khushikumarigupta14/create-express-saas#readme",
+  "files": [
+    "bin",
+    "template"
+  ],
+  "bugs": {
+    "url": "https://github.com/khushikumarigupta14/create-express-saas/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "boilerplate",
+    "saas",
+    "api",
+    "mongoose",
+    "jwt",
+    "backend",
+    "generator",
+    "scaffolding"
+  ],
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "ora": "^8.0.1",
+    "fs-extra": "^11.2.0"
+  }
+}
