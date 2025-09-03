@@ -1,6 +1,6 @@
 {
   "name": "create-express-saas",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI to scaffold a production-ready Node.js + Express + Mongoose boilerplate",
   "scripts": {
     "dev": "node bin/create-express-saas.js --help",
