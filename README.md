@@ -34,9 +34,10 @@ cd my-project
 npm install
 npm run dev
 ```
-- Visit your API docs at:
-👉 http://localhost:5000/api-docs
+👉 **API Docs available at:** [http://localhost:5000/api-docs](http://localhost:5000/api-docs)
 
+
+## Project Structure
 ```
 my-project/
 │── src/
@@ -70,10 +71,10 @@ npm run dev
 
 ```
 ## 📚 Documentation
+- [Express.js](https://expressjs.com/)
+- [Mongoose](https://mongoosejs.com/)
+- [Swagger](https://swagger.io/tools/open-source/open-source-integrations/)
 
-Express.js
-Mongoose
-Swagger
 
 ## 🤝 Contributing
 - Contributions are welcome!
@@ -86,3 +87,7 @@ Swagger
 - Star the repo on GitHub 🌟
 - Share it with other developers
 - Open issues / feature requests
+- 🐛 [Report bugs / request features](https://github.com/khushikumarigupta14/create-express-saas/issues)
+
+## 📄 License
+[MIT](./LICENSE) © 2025 [Khushi Kumari Gupta](https://github.com/khushikumarigupta14)
